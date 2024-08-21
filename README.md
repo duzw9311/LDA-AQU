@@ -3,4 +3,7 @@ This repository presents the official PyTorch implementation of LDA-AQU (MM2024)
 
 In this paper, we improve the upsampling operator commonly used in dense prediction tasks. Specifically, we introduce the local self-attention mechanism into the feature upsampling task and introduce the local deformation ability to reduce the semantic gap in the feature reorganization process.
 
-![image](https://github.com/duzw9311/LDA-AQU/blob/main/figs/1_peformance.png)
+<p align="center">
+<img src="https://github.com/duzw9311/LDA-AQU/blob/main/figs/1_peformance.png" width=63% height=63% 
+class="center">
+</p>
