@@ -13,3 +13,27 @@ Here are the overall architecture of proposed LDA-AQU.
 <img src="https://github.com/duzw9311/LDA-AQU/blob/main/figs/2_architecture.png" width=100% height=100% 
 class="center">
 </p>
+
+## Installation
+Please see GETTING_STARTED.md for the basic usage of MMDetection.
+
+## Training
+```bash
+bash tools/dist_train.sh configs/lda_aqu/fasterrcnn_r50_lau.py 4
+```
+
+## Testing
+```bash
+python tools/test.py configs/lda_aqu/fasterrcnn_r50_lau.py work_dirs/lda_aqu/latest.pth --eval bbox
+```
+## Weight
+waiting.
+
+## Acknowledgement
+This repository is built upon the MMDetection library.
+
+## Citation
+
+```bash
+waiting.
+```
