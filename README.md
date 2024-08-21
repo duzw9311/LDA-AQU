@@ -10,7 +10,7 @@ class="center">
 
 Here are the overall architecture of proposed LDA-AQU.
 <p align="center">
-<img src="https://github.com/duzw9311/LDA-AQU/blob/main/figs/2_architecture.png" width=100% height=100% 
+<img src="https://github.com/duzw9311/LDA-AQU/blob/main/figs/2_architecture.png"
 class="center">
 </p>
 
