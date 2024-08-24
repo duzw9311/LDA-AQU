@@ -4,20 +4,20 @@ This repository presents the official PyTorch implementation of **LDA-AQU (MM'20
 In this paper, we propose LDA-AQU, which incorporates local self-attention into the feature upsampling process and introduces local deformation capabilities to mitigate the semantic gap between interpolation points and their neighboring points selected during feature reassembly.
 
 
-Here is the performance comparison of various upsampling operators integrated into the Faster RCNN detector on the COCO dataset.
+Here is the performance comparison of various upsampling operators integrated into the Faster RCNN detector on the MS COCO dataset.
 <p align="center">
-<img src="figs/1_peformance.png" width=63% height=63% 
+<img src="resources/1_peformance.png" width=63% height=63% 
 class="center">
 </p>
 
 Here is the overall architecture of the proposed LDA-AQU.
 <p align="center">
-<img src="figs/2_architecture.png"
+<img src="resources/2_architecture.png"
 class="center">
 </p>
 
 ## Installation
-Please see GETTING_STARTED.md for the basic usage of MMDetection.
+Please see [get_started.md](docs/en/get_started.md) for the basic usage of MMDetection.
 
 ## Training
 ```bash
