@@ -1,7 +1,7 @@
 # LDA-AQU: Adaptive Query-guided Upsampling via Local Deformable Attention
 This repository presents the official PyTorch implementation of **LDA-AQU (MM'2024)**.
 
-In this paper, we propose LDA-AQU, which incorporates local self-attention into the feature upsampling process and introduces local deformation capabilities to mitigate the semantic gap between interpolation points and their neighboring points selected during feature reassembly.
+In this [paper](https://arxiv.org/abs/2411.19585), we propose LDA-AQU, which incorporates local self-attention into the feature upsampling process and introduces local deformation capabilities to mitigate the semantic gap between interpolation points and their neighboring points selected during feature reassembly.
 
 
 Here is the performance comparison of various upsampling operators integrated into the Faster RCNN detector on the MS COCO dataset.
@@ -36,8 +36,14 @@ fasterrcnn_r50_lau             | 39.2 | [BaiduNetDisk](https://pan.baidu.com/s/1
 ## Acknowledgement
 This repository is built upon the [MMDetection](https://github.com/open-mmlab/mmdetection) library.
 
-<!-- ## Citation
-
-```bash
-
-``` -->
+## Citation
+If you find this paper helpful for your project, we'd appreciate it if you could cite it.
+```
+@inproceedings{du2024lda,
+  title={LDA-AQU: Adaptive Query-guided Upsampling via Local Deformable Attention},
+  author={Du, Zewen and Hu, Zhenjiang and Zhao, Guiyu and Jin, Ying and Ma, Hongbin},
+  booktitle={Proceedings of the 32nd ACM International Conference on Multimedia},
+  pages={4919--4927},
+  year={2024}
+}
+```
